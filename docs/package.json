@@ -1,0 +1,27 @@
+{
+  "name": "aon-developer-guide",
+  "version": "0.0.1",
+  "description": "AON 的開發手冊。",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gitbook serve --port 8080",
+    "build": "gitbook build . ./docs",
+    "pdf": "gitbook pdf . AON-Doc.pdf"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RemakeAONTeam/AON-Developer-Guide.git"
+  },
+  "keywords": [
+    "gitbook",
+    "unreal-engine",
+    "documentaion"
+  ],
+  "author": "RemakeAONTeam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RemakeAONTeam/AON-Developer-Guide/issues"
+  },
+  "homepage": "https://github.com/RemakeAONTeam/AON-Developer-Guide#readme",
+  "dependencies": {}
+}

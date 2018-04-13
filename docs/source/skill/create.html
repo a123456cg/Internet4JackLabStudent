@@ -1,0 +1,693 @@
+
+<!DOCTYPE HTML>
+<html lang="zh" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>4.1. 新增技能 · AON-Developer-Guide</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-disqus/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+        <link rel="stylesheet" href="../../styles/website.css">
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="flow.html" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="輸入並搜尋" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../env/">
+            
+                <a href="../env/">
+            
+                    
+                    1. 開發工具
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="../env/install.html">
+            
+                <a href="../env/install.html">
+            
+                    
+                    1.1. 安裝工具
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../repo/">
+            
+                <a href="../repo/">
+            
+                    
+                    2. 專案環境
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../repo/clone.html">
+            
+                <a href="../repo/clone.html">
+            
+                    
+                    2.1. 專案下載
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../repo/thirdparty.html">
+            
+                <a href="../repo/thirdparty.html">
+            
+                    
+                    2.2. 安裝套件
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../repo/compiled.html">
+            
+                <a href="../repo/compiled.html">
+            
+                    
+                    2.3. 專案編譯
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../repo/update.html">
+            
+                <a href="../repo/update.html">
+            
+                    
+                    2.4. 更新專案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../hero/">
+            
+                <a href="../hero/">
+            
+                    
+                    3. 英雄 🚧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    4. 技能
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="1.5.1" data-path="create.html">
+            
+                <a href="create.html">
+            
+                    
+                    4.1. 新增技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.2" data-path="flow.html">
+            
+                <a href="flow.html">
+            
+                    
+                    4.2. 技能流程
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3" data-path="behavior/">
+            
+                <a href="behavior/">
+            
+                    
+                    4.3. 技能行為
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.5.3.1" data-path="behavior/passive.html">
+            
+                <a href="behavior/passive.html">
+            
+                    
+                    4.3.1 被動技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.2" data-path="behavior/no-target.html">
+            
+                <a href="behavior/no-target.html">
+            
+                    
+                    4.3.2 無目標技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.3" data-path="behavior/unit-targer.html">
+            
+                <a href="behavior/unit-targer.html">
+            
+                    
+                    4.3.3 單一目標技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.4" data-path="behavior/aoe.html">
+            
+                <a href="behavior/aoe.html">
+            
+                    
+                    4.3.4 範圍技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.5" data-path="behavior/directional.html">
+            
+                <a href="behavior/directional.html">
+            
+                    
+                    4.3.5 指向技能
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.6" data-path="behavior/toggle.html">
+            
+                <a href="behavior/toggle.html">
+            
+                    
+                    4.3.6 開關技 🚧
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.5.3.7" data-path="behavior/immediate.html">
+            
+                <a href="behavior/immediate.html">
+            
+                    
+                    4.3.7 瞬發技 🚧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.6" data-path="../map/">
+            
+                <a href="../map/">
+            
+                    
+                    5. 地圖 🚧
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../unreal-teach/">
+            
+                <a href="../unreal-teach/">
+            
+                    
+                    I. Unreal 操作知識
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../unreal-teach/common.html">
+            
+                <a href="../unreal-teach/common.html">
+            
+                    
+                    I.I. 常用藍圖快捷操作
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.2" data-path="../unreal-teach/variable-map.html">
+            
+                <a href="../unreal-teach/variable-map.html">
+            
+                    
+                    I.II. Variable Map
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../edit/">
+            
+                <a href="../edit/">
+            
+                    
+                    Edit GitBook
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../edit/components.html">
+            
+                <a href="../edit/components.html">
+            
+                    
+                    Components
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.2.1" data-path="../edit/note.html">
+            
+                <a href="../edit/note.html">
+            
+                    
+                    Note
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2.2" data-path="../edit/breadcrumbs.html">
+            
+                <a href="../edit/breadcrumbs.html">
+            
+                    
+                    Breadcrumbs
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本書使用 GitBook 釋出
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >4.1. 新增技能</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="&#x65B0;&#x589E;&#x6280;&#x80FD;-create-skill">&#x65B0;&#x589E;&#x6280;&#x80FD; Create Skill</h1>
+<hr>
+
+<h3 id="&#x5EFA;&#x7ACB;">&#x5EFA;&#x7ACB;</h3>
+<ol>
+<li><p>&#x5728;Content Browser&#x5E95;&#x4E0B;&#x7684; <strong>Content</strong>  &gt; <strong>MOBA</strong> &gt; <strong>Hero</strong> &gt; <strong><em>&#x82F1;&#x96C4;&#x4EE3;&#x865F;</em></strong> &gt; <strong>Skill</strong> &#x8CC7;&#x6599;&#x593E;&#x4E0B;&#x6ED1;&#x9F20;&#x53F3;&#x9375;&#x65B0;&#x589E;&#x4E00;&#x500B;Blueprint Class<br><img src="https://i.imgur.com/uKQ3uaA.png" alt=""></p>
+</li>
+<li><p>&#x6B64;Blueprint Class&#x7E7C;&#x627F;<strong>HeroSkill</strong> class<br><img src="https://i.imgur.com/4PzdRLR.png" alt=""></p>
+</li>
+<li><p>&#x6280;&#x80FD;&#x6A94;&#x6848;&#x547D;&#x540D;&#x898F;&#x5247;&#x70BA; : <strong><em>&#x6B66;&#x5C07;&#x4EE3;&#x865F;</em></strong>(E/R/T/W)_Skill<br><img src="https://i.imgur.com/Sb5gHep.png" alt=""><img src="https://i.imgur.com/5h96mIe.png" alt=""></p>
+</li>
+<li><p>&#x6253;&#x958B;&#x525B;&#x525B;&#x65B0;&#x589E;&#x7684;BP&#x6280;&#x80FD;&#x9032;&#x5165;BP&#x7DE8;&#x8F2F;&#x9801;&#x9762;&#xFF0C; &#x627E;&#x5230;&#x5DE5;&#x5177;&#x5217;&#x7684;<strong>Class Defauls</strong>&#x5E95;&#x4E0B;&#x7684;<strong>MOBA</strong>&#xFF0C; &#x7DE8;&#x8F2F;<strong>Name</strong>(&#x6280;&#x80FD;&#x540D;&#x5B57;)&#x3001;<strong>Texture</strong>(&#x6280;&#x80FD;&#x5716;&#x793A;) 
+<img src="https://i.imgur.com/Tsljy16.png" alt="">
+<img src="https://i.imgur.com/o5igKUS.png" alt=""></p>
+</li>
+<li><p>&#x6253;&#x958B;&#x82F1;&#x96C4;&#x7684;BP(<strong><em>&#x6B66;&#x5C07;&#x4EE3;&#x865F;</em></strong>_hero)&#xFF0C; &#x627E;&#x5230;MOBA&#x5E95;&#x4E0B;&#x7684;<strong>Skill Classes</strong>&#x53F3;&#x908A;&#x7684;+&#x65B0;&#x589E;&#x4E00;&#x500B;<strong>array element</strong>&#xFF0C; &#x8A2D;&#x5B9A;&#x65B0;&#x6280;&#x80FD;&#x5982;&#x6B64;&#x4FBF;&#x80FD;&#x5728;&#x89D2;&#x8272;&#x9762;&#x677F;&#x4E0A;&#x770B;&#x898B;&#x6B64;&#x6280;&#x80FD;&#x65B0;&#x589E;&#x51FA;&#x4F86;<br><img src="https://i.imgur.com/e5dhCjC.png" alt="">
+<img src="https://i.imgur.com/nfbyOIa.png" alt="">
+<img src="https://i.imgur.com/FjaYmxZ.png" alt=""></p>
+ <div class="note note-teal">&#x6700;&#x591A;&#x53EA;&#x80FD;&#x6709; 4 &#x500B;&#x6280;&#x80FD;</div>
+</li>
+<li><p>&#x56DE;&#x5230;BP&#x6280;&#x80FD;&#x7DE8;&#x8F2F;&#x9801;&#x9762;&#xFF0C; &#x5DE5;&#x5177;&#x5217;Class Details &gt; MOBA&#x5E95;&#x4E0B;&#x7684;<strong>Level CD</strong>&#xFF0C;&#x6B64;&#x6280;&#x80FD;&#x6BCF;&#x500B;&#x7B49;&#x7D1A;&#x7684;CD&#x6642;&#x9593;&#xFF0C; &#x6280;&#x80FD;&#x7B49;&#x7D1A;&#x6700;&#x5927;&#x6709;&#x591A;&#x5C11;&#x5C31;&#x65B0;&#x589E;&#x5E7E;&#x500B;<strong>array element</strong><br><img src="https://i.imgur.com/DOCwY8t.png" alt=""></p>
+ <div class="note note-teal">&#x7B49;&#x7D1A;&#x8D8A;&#x9AD8;&#xFF0C;CD&#x6642;&#x9593;&#x61C9;&#x8D8A;&#x77ED;</div>
+</li>
+<li><p><strong>Level Mana Cost</strong>&#x70BA;&#x6B64;&#x6280;&#x80FD;&#x6BCF;&#x500B;&#x7B49;&#x7D1A;&#x7684;&#x8017;&#x9B54;&#xFF0C; &#x540C;&#x4E0A;&#x65B0;&#x589E;<strong>array element</strong></p>
+</li>
+<li><p><strong>MOBA</strong>&#x5E95;&#x4E0B;&#x7684;<strong>Variable Map</strong>&#x70BA;&#x6B64;&#x6280;&#x80FD;&#x7684;&quot;&#x4F9D;&#x6280;&#x80FD;&#x7B49;&#x7D1A;&#x6709;&#x6240;&#x4E0D;&#x540C;&quot;&#x7684;&#x8B8A;&#x6578;&#xFF0C; &#x9EDE;&#x53F3;&#x908A;+&#x65B0;&#x589E;&#x4E00;&#x500B;<strong>Map</strong>&#xFF0C;&#x6B64;<strong>Map</strong>&#x540D;&#x7A31;<strong>&#x81EA;&#x5B9A;&#x7FA9;</strong>. </p>
+<ul>
+<li>&#x653B;&#x64CA;&#x6280;&#x80FD;&#x61C9;&#x6709;<strong>Damage</strong> : <strong>Map</strong>&#x53D6;&#x540D;&#x70BA;<strong>Damage</strong>&#xFF0C; &#x9EDE;<strong>Values</strong>&#x53F3;&#x5074;&#x7684;+&#x70BA;&#x6B64;<strong>Map</strong>&#x65B0;&#x589E;&#x6BCF;&#x500B;&#x7B49;&#x7D1A;&#x7684;&#x50B7;&#x5BB3;&#x91CF;<br><img src="https://i.imgur.com/zFh9kb8.png" alt=""></li>
+<li>Buff&#x6280;&#x80FD;&#x540C;&#x6A23;&#xFF0C; &#x4F8B;&#x5982;Buff&#x4E86;&#x7206;&#x64CA;&#x7387; : &#x547D;&#x540D;&#x70BA;<strong>Critical</strong>&#x4E26;&#x65B0;&#x589E;&#x6BCF;&#x500B;&#x7B49;&#x7D1A;&#x7684;&#x7206;&#x64CA;&#x7387;
+<img src="https://i.imgur.com/2FG8r0a.png" alt=""></li>
+</ul>
+</li>
+</ol>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="./" class="navigation navigation-prev " aria-label="Previous page: 4. 技能">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="flow.html" class="navigation navigation-next " aria-label="Next page: 4.2. 技能流程">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"4.1. 新增技能","level":"1.5.1","depth":2,"next":{"title":"4.2. 技能流程","level":"1.5.2","depth":2,"path":"source/skill/flow.md","ref":"source/skill/flow.md","articles":[]},"previous":{"title":"4. 技能","level":"1.5","depth":1,"path":"source/skill/index.md","ref":"source/skill/index.md","articles":[{"title":"4.1. 新增技能","level":"1.5.1","depth":2,"path":"source/skill/create.md","ref":"source/skill/create.md","articles":[]},{"title":"4.2. 技能流程","level":"1.5.2","depth":2,"path":"source/skill/flow.md","ref":"source/skill/flow.md","articles":[]},{"title":"4.3. 技能行為","level":"1.5.3","depth":2,"path":"source/skill/behavior/index.md","ref":"source/skill/behavior/index.md","articles":[{"title":"4.3.1 被動技能","level":"1.5.3.1","depth":3,"path":"source/skill/behavior/passive.md","ref":"source/skill/behavior/passive.md","articles":[]},{"title":"4.3.2 無目標技能","level":"1.5.3.2","depth":3,"path":"source/skill/behavior/no-target.md","ref":"source/skill/behavior/no-target.md","articles":[]},{"title":"4.3.3 單一目標技能","level":"1.5.3.3","depth":3,"path":"source/skill/behavior/unit-targer.md","ref":"source/skill/behavior/unit-targer.md","articles":[]},{"title":"4.3.4 範圍技能","level":"1.5.3.4","depth":3,"path":"source/skill/behavior/aoe.md","ref":"source/skill/behavior/aoe.md","articles":[]},{"title":"4.3.5 指向技能","level":"1.5.3.5","depth":3,"path":"source/skill/behavior/directional.md","ref":"source/skill/behavior/directional.md","articles":[]},{"title":"4.3.6 開關技 🚧","level":"1.5.3.6","depth":3,"path":"source/skill/behavior/toggle.md","ref":"source/skill/behavior/toggle.md","articles":[]},{"title":"4.3.7 瞬發技 🚧","level":"1.5.3.7","depth":3,"path":"source/skill/behavior/immediate.md","ref":"source/skill/behavior/immediate.md","articles":[]}]}]},"dir":"ltr"},"config":{"plugins":["disqus","github","editlink","prism","-highlight","splitter","sitemap"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"prism":{},"disqus":{"useIdentifier":false,"shortName":"aon-dev-guide"},"github":{"url":"https://github.com/RemakeAONTeam/AON-Developer-Guide"},"editlink":{"label":"編輯本頁","multilingual":false,"base":"https://github.com/RemakeAONTeam/AON-Developer-Guide/blob/master"},"splitter":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"sitemap":{"hostname":"https://remakeaonteam.github.io/AON-Developer-Guide"},"sharing":{"facebook":true,"twitter":false,"google":true,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"AON-Developer-Guide","language":"zh","gitbook":"*","description":"自己的英雄自己做，本書為 AON 的開發指南，如果你也有興趣參與開發，歡迎閱讀分享。"},"file":{"path":"source/skill/create.md","mtime":"2018-04-01T02:13:53.934Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2018-04-04T08:43:24.644Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/URI.js/1.16.1/URI.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-disqus/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-editlink/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

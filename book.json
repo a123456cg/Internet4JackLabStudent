@@ -1,0 +1,41 @@
+{
+    "title": "AON-Developer-Guide",
+    "description": "自己的英雄自己做，本書為 AON 的開發指南，如果你也有興趣參與開發，歡迎閱讀分享。",
+    "language": "zh",
+    "plugins": [
+        "disqus",
+        "github",
+        "editlink",
+        "prism",
+        "-highlight",
+        "splitter",
+        "sitemap"
+    ],
+    "pluginsConfig": {
+        "disqus": {
+            "shortName": "aon-dev-guide"
+        },
+        "github": {
+            "url": "https://github.com/RemakeAONTeam/AON-Developer-Guide"
+        },
+        "editlink": {
+            "base": "https://github.com/RemakeAONTeam/AON-Developer-Guide/blob/master",
+            "label": "編輯本頁"
+        },
+        "sitemap": {
+            "hostname": "https://remakeaonteam.github.io/AON-Developer-Guide"
+        },
+        "sharing": {
+            "facebook": true,
+            "google": true,
+            "twitter": false,
+            "instapaper": false,
+            "weibo": false,
+            "vk": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "instapaper"
+            ]
+        }
+    }
+}
